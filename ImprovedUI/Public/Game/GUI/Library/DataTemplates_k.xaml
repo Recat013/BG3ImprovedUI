@@ -300,12 +300,12 @@
     </ControlTemplate>
 
     <!-- MOD -->
-    <ControlTemplate x:Key="ActionResources.ActionGroup.DragonBreathGroup" TargetType="ls:LSActionPoint">
+    <ControlTemplate x:Key="ActionResources.ActionGroup.BreathWeaponGroup" TargetType="ls:LSActionPoint">
         <ControlTemplate.Resources>
-            <ImageSource x:Key="Highlight">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_h.png</ImageSource>
-            <ImageSource x:Key="Available">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_d.png</ImageSource>
-            <ImageSource x:Key="Used">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_spent.png</ImageSource>
-            <ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_missing.png</ImageSource>
+            <ImageSource x:Key="Highlight">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_breathweaponcharge_h.png</ImageSource>
+            <ImageSource x:Key="Available">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_breathweaponcharge_d.png</ImageSource>
+            <ImageSource x:Key="Used">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_breathweaponcharge_spent.png</ImageSource>
+            <ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_breathweaponcharge_missing.png</ImageSource>
         </ControlTemplate.Resources>
         <ContentPresenter ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
     </ControlTemplate>
