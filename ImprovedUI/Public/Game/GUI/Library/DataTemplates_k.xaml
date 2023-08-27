@@ -299,6 +299,18 @@
         <ContentPresenter ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
     </ControlTemplate>
 
+    <!-- MOD -->
+    <ControlTemplate x:Key="ActionResources.ActionGroup.DragonBreathGroup" TargetType="ls:LSActionPoint">
+        <ControlTemplate.Resources>
+            <ImageSource x:Key="Highlight">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_h.png</ImageSource>
+            <ImageSource x:Key="Available">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_d.png</ImageSource>
+            <ImageSource x:Key="Used">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_spent.png</ImageSource>
+            <ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_missing.png</ImageSource>
+        </ControlTemplate.Resources>
+        <ContentPresenter ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
+    </ControlTemplate>
+    <!-- END MOD -->
+
     <ControlTemplate x:Key="DefaultProgressBar" TargetType="{x:Type ProgressBar}">
         <Grid x:Name="TemplateRoot" MinHeight="{TemplateBinding MinHeight}">
             <Border x:Name="PART_Track" Background="{TemplateBinding Background}"  BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="1"/>
