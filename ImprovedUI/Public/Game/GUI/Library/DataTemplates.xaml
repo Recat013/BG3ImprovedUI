@@ -3575,14 +3575,14 @@
                 <Setter Property="Margin" Value="0,-15,0,0"/>
             </MultiDataTrigger>
             <!-- MOD -->
-            <DataTrigger Binding="{Binding TypeId}" Value="DragonBreath">
-                <Setter Property="ActionPointTemplate" Value="{DynamicResource ActionResources.ActionGroup.DragonBreathGroup}"/>
+            <DataTrigger Binding="{Binding TypeId}" Value="BreathWeaponCharge">
+                <Setter Property="ActionPointTemplate" Value="{DynamicResource ActionResources.ActionGroup.BreathWeaponGroup}"/>
                 <Setter Property="MaxGroupActionPoints" Value="1"/>
                 <Setter Property="ActionPointSize" Value="{DynamicResource ActionResources.ActionPointSize}" />
             </DataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
-                    <Condition Binding="{Binding TypeId}" Value="DragonBreath"/>
+                    <Condition Binding="{Binding TypeId}" Value="BreathWeaponCharge"/>
                     <Condition Binding="{Binding Value, Converter={StaticResource GreaterThanConverter}, ConverterParameter=1}" Value="True"/>
                 </MultiDataTrigger.Conditions>
                 <Setter Property="Margin" Value="0,-15,0,0"/>
