@@ -92,7 +92,7 @@
     <BitmapImage x:Key="FungalInfestationIcon" UriSource="pack://application:,,,/GustavNoesisGUI;component/Assets/CC/icons_resources/ico_classRes_FungalInfestationCharge.png" />
     <BitmapImage x:Key="LuckPointIcon" UriSource="pack://application:,,,/GustavNoesisGUI;component/Assets/CC/icons_resources/ico_classRes_luck.png" />
     <!-- MOD -->
-    <BitmapImage x:Key="DragonBreathIcon" UriSource="pack://application:,,,/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_dragonbreath_d.png" />
+    <BitmapImage x:Key="BreathWeaponIcon" UriSource="pack://application:,,,/GustavNoesisGUI;component/Assets/Shared/Resources/r_ico_breathweaponcharge_d.png" />
     <!-- END MOD -->
 
 
@@ -273,8 +273,8 @@
                 <Setter Property="Source" Value="{StaticResource LuckPointIcon}"/>
             </DataTrigger>
             <!-- MOD -->
-            <DataTrigger Binding="{Binding TypeId}" Value="DragonBreath">
-                <Setter Property="Source" Value="{StaticResource DragonBreathIcon}"/>
+            <DataTrigger Binding="{Binding TypeId}" Value="BreathWeaponCharge">
+                <Setter Property="Source" Value="{StaticResource BreathWeaponIcon}"/>
             </DataTrigger>
             <!-- END MOD -->
         </Style.Triggers>
